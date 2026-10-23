@@ -59,7 +59,7 @@ mvn test       # executa os testes
 
 Exemplifica-se uma rede válida, com 1 gerador, 2 subestações e 3 consumidores:
 
-![Rede simples](assets/network-small.png)
+![Rede simples](images/network-small.png)
 
 Este exemplo ilustra:
 
@@ -67,19 +67,19 @@ Este exemplo ilustra:
 
 - **Compatibilidade de tensão**: S1 permite a transição entre 60 e 15 kV; S2, entre 15 e 0,4 kV.
 
-- **Conectividade**: existe um caminho entre o gerador e cada consumidor através das linhas em serviço.
+- **Conectividade**: existe um caminho entre o gerador e cada consumidor através das linhas ativas.
 
 ### Rede complexa
 
-Exemplifica-se uma rede relativamente complexa, mas estruturalmente válida segundo as regras definidas. 
-Inclui dois geradores, quatro subestações, duas baterias e sete consumidores, com diferentes níveis de tensão e ligações 
+Exemplifica-se uma rede relativamente complexa, mas estruturalmente válida segundo as regras definidas.
+Inclui dois geradores, quatro subestações e sete consumidores, com diferentes níveis de tensão e ligações
 redundantes entre subestações.
 
-![Rede complexa](assets/network-big.png)
+![Rede complexa](images/network-big.png)
 
 Porque é que esta rede é válida?
 
-- **Topologia**: geradores, consumidores e baterias ligam-se apenas a subestações; as subestações podem ligar-se entre si.
+- **Topologia**: geradores e consumidores ligam-se apenas a subestações; as subestações podem ligar-se entre si.
 - **Tensão**: todas as linhas têm um nível de tensão suportado pelos componentes aos quais estão ligadas.
 - **Identificação**: todos os componentes e linhas têm identificadores distintos.
-- **Redundância**: existem dois caminhos entre S1 e S4: diretamente através de S3 ou através de S2.
+- **Redundância**: existem dois caminhos entre S1 e S4: um através de S3 e outro através de S2.
