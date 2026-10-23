@@ -52,3 +52,34 @@ mvn test       # executa os testes
 - `src/main/java/pt/unips/tapoo` – código da aplicação (`Main`, `GraphApp`)
 - `src/test/java/pt/unips/tapoo` – testes JUnit
 - `smartgraph.properties` / `smartgraph.css` – configuração e estilo da visualização do grafo
+
+## Exemplos de redes elétricas
+
+### Rede simples
+
+Exemplifica-se uma rede válida, com 1 gerador, 2 subestações e 3 consumidores:
+
+![Rede simples](assets/network-small.png)
+
+Este exemplo ilustra:
+
+- **Regras de ligação**: os geradores e consumidores ligam-se a subestações; as subestações podem ligar-se entre si.
+
+- **Compatibilidade de tensão**: S1 permite a transição entre 60 e 15 kV; S2, entre 15 e 0,4 kV.
+
+- **Conectividade**: existe um caminho entre o gerador e cada consumidor através das linhas em serviço.
+
+### Rede complexa
+
+Exemplifica-se uma rede relativamente complexa, mas estruturalmente válida segundo as regras definidas. 
+Inclui dois geradores, quatro subestações, duas baterias e sete consumidores, com diferentes níveis de tensão e ligações 
+redundantes entre subestações.
+
+![Rede complexa](assets/network-big.png)
+
+Porque é que esta rede é válida?
+
+- **Topologia**: geradores, consumidores e baterias ligam-se apenas a subestações; as subestações podem ligar-se entre si.
+- **Tensão**: todas as linhas têm um nível de tensão suportado pelos componentes aos quais estão ligadas.
+- **Identificação**: todos os componentes e linhas têm identificadores distintos.
+- **Redundância**: existem dois caminhos entre S1 e S4: diretamente através de S3 ou através de S2.
