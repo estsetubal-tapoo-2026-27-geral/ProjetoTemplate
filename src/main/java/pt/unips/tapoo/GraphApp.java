@@ -33,7 +33,7 @@ public class GraphApp extends Application {
         stage.setScene(new Scene(graphView, 800, 600));
         stage.show();
 
-        // Must be called after the scene is displayed
-        graphView.init();
+        // Uncomment for automatic layout
+        //graphView.setAutomaticLayout(true);
     }
 }
