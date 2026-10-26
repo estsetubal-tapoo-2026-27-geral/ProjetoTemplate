@@ -36,11 +36,11 @@ Só quem tem permissões de administração do repositório (quem o criou) conse
 
 **Adicionar o docente da vossa turma** como colaborador (pelo *username*):
 
-| Docente | Utilizador GitHub | Email                            | Turmas        |
-|---------|-------------------|----------------------------------|---------------|
-| Bruno Silva | [`brunomnsilva-estsetubal`](https://github.com/brunomnsilva-estsetubal) | bruno.silva@estsetubal.ips.pt    | PL4, PL5      |
-| Patrícia Macedo | [`patriciamacedo`](https://github.com/patriciamacedo) | patricia.macedo@estsetubal.ips.pt | PL1, PL3, PL7 |
-| Pedro Albuquerque Santos | [`petersaints`](https://github.com/petersaints) | pedro.albuquerque@estsetubal.ips.pt | PL2, PL6      |
+| Docente | Utilizador GitHub                                                         | Email                            | Turmas        |
+|-------|--------------------------------------------|----------------------------------|---------------|
+| Bruno Silva | [`brunomnsilva-estsetubal`](https://github.com/brunomnsilva-estsetubal)   | bruno.silva@estsetubal.ips.pt    | PL4, PL5      |
+| Patrícia Macedo | [`patriciamacedo`](https://github.com/patriciamacedo)                     | patricia.macedo@estsetubal.ips.pt | PL1, PL3, PL7 |
+| Pedro Albuquerque Santos | [`petersaints`](https://github.com/petersaints)                           | pedro.albuquerque@estsetubal.ips.pt | PL2, PL6      |
 
 ### 3. Clonar e executar
 
