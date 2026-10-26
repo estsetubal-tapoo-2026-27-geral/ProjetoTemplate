@@ -15,9 +15,13 @@ Template Maven (JavaFX + [SmartGraph](https://github.com/brunomnsilva/JavaFXSmar
 
 ### 1. Criar o repositório a partir do template
 
+> [!NOTE]
+> Os identificadores dos grupos (`<Identificador_Grupo>`) encontram-se publicados no Moodle - na área do projeto - em **Atribuição do Número do Grupo**.
+
 1. Nesta página do template, clicar em **Use this template** → **Create a new repository**.
 2. Escolher como *Owner* a conta pessoal do elemento do grupo que está a criar o repositório.
-3. Dar ao repositório um nome que identifique o grupo (ex.: `Projeto-GrupoXX`).
+3. Dar ao repositório um nome que identifique o grupo, com o seguinte formato: `ProjetoTAPOO-<Identificador_Grupo>`
+   - **Ver identificadores do grupo no Moodle**. Exemplo: `ProjetoTAPOO-PL01_01`
 4. Em *Visibility*, escolher **Private**.
 5. Clicar em **Create repository**.
 
