@@ -10,6 +10,9 @@ Template Maven (JavaFX + [SmartGraph](https://github.com/brunomnsilva/JavaFXSmar
 
 ## Como começar
 
+> [!IMPORTANT]
+> É responsabilidade do **leader do grupo** (quem efetuou a inscrição) efetuar os passos 1 e 2.
+
 ### 1. Criar o repositório a partir do template
 
 1. Nesta página do template, clicar em **Use this template** → **Create a new repository**.
