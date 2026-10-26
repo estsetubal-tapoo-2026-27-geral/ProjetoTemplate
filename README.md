@@ -29,14 +29,15 @@ Só quem tem permissões de administração do repositório (quem o criou) conse
 3. Clicar em **Add people**.
 4. Pesquisar pelo *username* GitHub (ou e-mail) de cada colega de grupo e do docente e confirmar.
 5. Cada pessoa convidada tem de **aceitar o convite** (recebido por e-mail ou em <https://github.com/notifications>).
+6. Enviar um email ao docente com o URL do repositório criado.
 
-**Adicionar o docente da vossa turma** como colaborador:
+**Adicionar o docente da vossa turma** como colaborador (pelo *username*):
 
-| Docente | Utilizador GitHub | Turmas |
-|---------|-------------------|--------|
-| Bruno Silva | [`brunomnsilva-estsetubal`](https://github.com/brunomnsilva-estsetubal) | PL4, PL5 |
-| Patrícia Macedo | [`patriciamacedo`](https://github.com/patriciamacedo) | PL1, PL3, PL7 |
-| Pedro Albuquerque Santos | [`petersaints`](https://github.com/petersaints) | PL2, PL6 |
+| Docente | Utilizador GitHub | Email                            | Turmas        |
+|---------|-------------------|----------------------------------|---------------|
+| Bruno Silva | [`brunomnsilva-estsetubal`](https://github.com/brunomnsilva-estsetubal) | bruno.silva@estsetubal.ips.pt    | PL4, PL5      |
+| Patrícia Macedo | [`patriciamacedo`](https://github.com/patriciamacedo) | patricia.macedo@estsetubal.ips.pt | PL1, PL3, PL7 |
+| Pedro Albuquerque Santos | [`petersaints`](https://github.com/petersaints) | pedro.albuquerque@estsetubal.ips.pt | PL2, PL6      |
 
 ### 3. Clonar e executar
 
